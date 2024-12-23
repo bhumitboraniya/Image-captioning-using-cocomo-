@@ -16,16 +16,14 @@ After that we will pre process all the images that are in the dataset. we will d
 
 Our encoder part is done. Now at decoder layer extracted features will pass to the LSTM model with the Captions embeddings and LSTM will geneate captions. based on their 3 nodes. forgot node, input node, output node.
 
-project-directory/
-/n
-|-- minor-project.ipynb  # Main project notebook
-/n
-|-- /input /n
-    |-- coco-2017-dataset /n
-        |-- annotations /n
-        |   |-- captions_train2017.json/n 
-        |-- train2017/n 
-|-- /output  # Stores processed data or model outputs/n
+project-directory/  
+|-- minor-project.ipynb  # Main project notebook  
+|-- /input  
+    |-- coco-2017-dataset  
+        |-- annotations  
+        |   |-- captions_train2017.json  
+        |-- train2017  
+|-- /output  # Stores processed data or model outputs  
 
 
 
