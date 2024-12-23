@@ -58,3 +58,22 @@ project-directory/
 - Libraries: Install the required libraries using:
   ```bash
   pip install tensorflow pandas numpy matplotlib
+
+
+## **Directory Structure**
+
+project-directory/
+|-- minor-project.ipynb  # Main project notebook
+|-- /input
+    |-- coco-2017-dataset
+        |-- annotations
+        |   |-- captions_train2017.json
+        |-- train2017
+|-- /output  # Stores processed data or model outputs
+
+
+
+## **Future Scope**
+Extend the pipeline to include advanced text embeddings (e.g., BERT, GPT).
+Experiment with generative models like Transformers for improved captions.
+Enhance preprocessing for multilingual datasets
