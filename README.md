@@ -28,36 +28,33 @@ project-directory/
 |-- /output  # Stores processed data or model outputs
 
 
-### Features
+## **Features**
+1. **Text Preprocessing**:
+   - Normalizes text by converting to lowercase.
+   - Removes punctuation and extra spaces.
+   - Adds special tokens such as `[start]` and `[end]` for sequence modeling.
+   - Utilizes regular expressions (regex) for efficient text cleaning.
 
-## Text Preprocessing:
+2. **Image-Text Pairing**:
+   - Extracts image-caption pairs from the COCO 2017 dataset.
+   - Processes annotations stored in JSON format to create a structured dataset.
 
-Normalizes text by converting to lowercase.
+3. **Machine Learning Pipeline**:
+   - Loads pre-trained TensorFlow/Keras models for feature extraction or training.
+   - Includes visualization tools for better understanding data and model performance.
 
-Removes punctuation and extra spaces.
+4. **Dependencies and Libraries**:
+   - TensorFlow/Keras for deep learning.
+   - Pandas and NumPy for data manipulation.
+   - Matplotlib for visualization.
+   - Regex for text cleaning.
 
-Adds special tokens such as [start] and [end] for sequence modeling.
+---
 
-Utilizes regular expressions (regex) for efficient text cleaning.
+## **Setup Instructions**
 
-## Image-Text Pairing:
-
-Extracts image-caption pairs from the COCO 2017 dataset.
-
-Processes annotations stored in JSON format to create a structured dataset.
-
-## Machine Learning Pipeline:
-
-Loads pre-trained TensorFlow/Keras models for feature extraction or training.
-
-Includes visualization tools for better understanding data and model performance.
-
-## Dependencies and Libraries:
-
-TensorFlow/Keras for deep learning.
-
-Pandas and NumPy for data manipulation.
-
-Matplotlib for visualization.
-
-Regex for text cleaning.
+### **Prerequisites**
+- Python 3.8 or higher.
+- Libraries: Install the required libraries using:
+  ```bash
+  pip install tensorflow pandas numpy matplotlib
